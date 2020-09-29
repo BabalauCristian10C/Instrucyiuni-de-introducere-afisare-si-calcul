@@ -1,0 +1,5 @@
+v = int(input("Varsta "))
+gre=2*v+8
+inl=5*v+80
+
+print(gre, inl)
