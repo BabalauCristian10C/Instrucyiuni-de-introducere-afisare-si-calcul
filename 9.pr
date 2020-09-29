@@ -1,0 +1,11 @@
+a = int(input("introduceti 1 nr "))
+b = int(input("introduceti 2 nr "))
+c = int(input("introduceti 3 nr "))
+
+sum1 = a + b
+sum2 = a + c
+sum3 = c + b
+
+print(f'{a} + {b} = {sum1}')
+print(f'{a} + {c} = {sum2}')
+print(f'{b} + {c} = {sum3}')
