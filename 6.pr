@@ -1,0 +1,9 @@
+nr = int(input("Introduceti nr de mere ambii copii au : "))
+c1 = nr
+c2 = nr
+
+c1 -= 2
+c2 += 1
+
+print(f'primul copil are {c1} mere al doilea copil are {c2} mere.' )
+
