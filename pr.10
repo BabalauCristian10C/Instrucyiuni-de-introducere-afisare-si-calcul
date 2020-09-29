@@ -1,0 +1,7 @@
+x = int(input("introduceti 1 nr "))
+
+i = 0
+
+while i < 11:
+    print(f'{i} * {x} = {i * x}')
+    i = i + 1
