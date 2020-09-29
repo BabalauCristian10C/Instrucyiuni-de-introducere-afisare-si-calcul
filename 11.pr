@@ -1,0 +1,20 @@
+import random
+
+urm = int(input("Cate luni vreti sa urmariti dupa ferma? "))
+iep = int(input("Numarul de iepuri la inceputul lunii "))
+iep2 = iep
+i = 0
+
+while i < urm:
+    if iep2>0:
+        nasc = random.randint(0, round(iep2 * 1.50)) # luam un numar logic cati iepuri pot lua nascare
+        morti = random.randint(0, iep2)
+        print(f'In luna {i+1} sau nascut : {nasc} iepuri, si au murit {morti} iepuri')
+        iep2 = iep2 + nasc - morti
+        print("Numarul de iepuri la sfarsitul lunii = ", iep2)
+        i= i+ 1
+    else:
+        print("La ferma nu au mai ramas iepuri")
+        break
+
+
