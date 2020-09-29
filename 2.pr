@@ -1,0 +1,4 @@
+f = int(input("Introduceti nr de fete: "))
+b = f + 10
+t = f + b
+print(t)
