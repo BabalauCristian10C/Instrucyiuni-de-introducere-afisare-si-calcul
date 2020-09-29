@@ -1,0 +1,10 @@
+nr = int(input("Introduceti nr ales de Ion: "))
+n = nr - 3
+nim = n
+i = 0
+
+
+while i < 5:
+    nim = nim + 1
+    print(nim)
+    i = i + 1
