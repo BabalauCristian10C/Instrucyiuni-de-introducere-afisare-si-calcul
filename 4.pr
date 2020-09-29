@@ -1,0 +1,6 @@
+al = int(input("Introduceti nr de globuri albe: "))
+ro = al + 3
+to1 = ro + al
+alba = to1 - 2
+to2 = to1 + alba
+print(to2)
