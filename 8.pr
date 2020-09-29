@@ -1,0 +1,6 @@
+a = str(input("introduceti 1 nr "))
+b = str(input("introduceti 2 nr "))
+c = str(input("introduceti 3 nr "))
+
+print(a + b +c, b+a+c , c+a+b,  c+ b+ a, b+c+a)
+
