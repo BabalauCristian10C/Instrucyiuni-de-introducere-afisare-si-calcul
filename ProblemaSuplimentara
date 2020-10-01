@@ -1,0 +1,48 @@
+#sunt monete de 1000 500 200 50 20 10 5 2 1
+
+mny = int(input("Introduceti Suma de bani ce o doriti sa o descompuneti "))
+x1 = mny // 1000 #numarul de monede de 1000
+s1 = mny - 1000 * x1 #suma noua
+x2 = s1 // 500 #numarul de monede de 200
+s2 = s1 - 500 * x2
+x3 = s2 // 200 #numarul de monede de 200
+s3 = s2 - 200 * x3
+x4 = s3 // 100 #numarul de monede de 100 lei
+s4 = s3 - 100 * x4
+x5 = s4 // 50 #numarul de monede de 50 lei
+s5 = s4 - 50 * x5
+x6 = s5 // 20 #numarul de monede de 20 lei
+s6 = s5 - 20 * x6
+x7 = s6 // 10 #numarul de monede de 10 lei
+s7 = s6 - 10 * x7
+x8 = s7 // 5 #numarul de monede de 5 lei
+s8 = s7 - 5 * x8
+x9 = s8 // 2 #numarul de monede de 2 lei
+s9 = s8 - 2 * x9
+x10 = s9 // 1 #numarul de monede de 1 lei
+s10 = s9 - 1 * x10
+
+
+if mny // 1000 > 0:
+    print(x1,'de 1000 lei', end = " | ")
+if s1 // 500 > 0:
+    print(x2,'de 500 lei', end = " | ")
+if s2 // 200 > 0:
+    print(x3,'de 200 lei', end = " | ")
+if s3 // 100 > 0:
+    print(x4,'de 100 lei', end = " | ")
+if s4 // 50 > 0:
+    print(x5,'de 50 lei', end = " | ")
+if s5 // 20 > 0:
+    print(x6,'de 20 lei', end = " | ")
+if s6 // 10 > 0:
+    print(x7,'de 10 lei', end = " | ")
+if s7 // 5 > 0:
+    print(f'{x8} 5 lei', end = " | ")
+if s8 // 2 > 0:
+    print(x9,'de 2 lei', end = " | ")
+if s9 // 1 > 0:
+    print(x10,'de 1 leu')
+
+else:
+    pass
